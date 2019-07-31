@@ -26,7 +26,7 @@ class LibgcryptConan(ConanFile):
     exports_sources = ["CMakeLists.txt", "patches/*.patch", "config.h.in", "gcrypt.h.in", "mod-source-info.h"]
     generators = "cmake"
 
-    requires = 'libgpg-error/1.36@qtproject/stable'
+    requires = 'libgpg-error/1.36@bincrafters/stable'
 
     @property
     def _is_msvc(self):
