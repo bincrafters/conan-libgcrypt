@@ -9,7 +9,7 @@ import glob
 class LibgcryptConan(ConanFile):
     name = "libgcrypt"
     version = "1.8.4"
-    url = "http://github.com/DEGoodmanWilson/conan-libgcrypt"
+    url = "http://github.com/bincrafters/conan-libgcrypt"
     author = "Bincrafters <bincrafters@gmail.com>"
     description = "Libgcrypt is a general purpose cryptographic library originally based on code from GnuPG"
     license = "LGPL-2.1-or-later"
@@ -26,7 +26,7 @@ class LibgcryptConan(ConanFile):
     exports_sources = ["CMakeLists.txt", "patches/*.patch", "config.h.in", "gcrypt.h.in", "mod-source-info.h"]
     generators = "cmake"
 
-    requires = 'libgpg-error/1.36@qtproject/stable'
+    requires = 'libgpg-error/1.36@bincrafters/stable'
 
     @property
     def _is_msvc(self):
