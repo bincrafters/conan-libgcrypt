@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from conans import ConanFile, tools, CMake
 import os
 import glob
@@ -38,6 +35,7 @@ class LibgcryptConan(ConanFile):
 
     def configure(self):
         del self.settings.compiler.libcxx
+        del self.settings.compiler.cppstd
 
     def source(self):
         source_url = "https://gnupg.org/ftp/gcrypt/libgcrypt"
