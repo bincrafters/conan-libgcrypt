@@ -7,7 +7,6 @@ class LibgcryptConan(ConanFile):
     name = "libgcrypt"
     version = "1.8.4"
     url = "http://github.com/bincrafters/conan-libgcrypt"
-    author = "Bincrafters <bincrafters@gmail.com>"
     description = "Libgcrypt is a general purpose cryptographic library originally based on code from GnuPG"
     license = "LGPL-2.1-or-later"
     homepage = "https://www.gnupg.org/download/index.html#libgcrypt"
