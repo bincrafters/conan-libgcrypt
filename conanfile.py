@@ -18,7 +18,6 @@ class LibgcryptConan(ConanFile):
     default_options = {"shared": False, "fPIC": True}
     _source_subfolder = "sources"
     _build_subfolder = "build"
-    exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt", "patches/*.patch", "config.h.in", "gcrypt.h.in", "mod-source-info.h"]
     generators = "cmake"
 
