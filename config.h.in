@@ -439,121 +439,121 @@
 #cmakedefine STDC_HEADERS @STDC_HEADERS@
 
 /* Defined if this module should be included */
-#cmakedefine USE_AES @USE_AES@
+#cmakedefine01 USE_AES
 
 /* Defined if this module should be included */
-#cmakedefine USE_ARCFOUR @USE_ARCFOUR@
+#cmakedefine01 USE_ARCFOUR
 
 /* Defined if this module should be included */
-#cmakedefine USE_BLAKE2 @USE_BLAKE2@
+#cmakedefine01 USE_BLAKE2
 
 /* Defined if this module should be included */
-#cmakedefine USE_BLOWFISH @USE_BLOWFISH@
+#cmakedefine01 USE_BLOWFISH
 
 /* Defined if this module should be included */
-#cmakedefine USE_CAMELLIA @USE_CAMELLIA@
+#cmakedefine01 USE_CAMELLIA
 
 /* define if capabilities should be used */
 #cmakedefine USE_CAPABILITIES
 
 /* Defined if this module should be included */
-#cmakedefine USE_CAST5 @USE_CAST5@
+#cmakedefine01 USE_CAST5
 
 /* Defined if this module should be included */
-#cmakedefine USE_CHACHA20 @USE_CHACHA20@
+#cmakedefine01 USE_CHACHA20
 
 /* Defined if this module should be included */
-#cmakedefine USE_CRC @USE_CRC@
+#cmakedefine01 USE_CRC
 
 /* Defined if this module should be included */
-#cmakedefine USE_DES @USE_DES@
+#cmakedefine01 USE_DES
 
 /* Defined if this module should be included */
-#cmakedefine USE_DSA @USE_DSA@
+#cmakedefine01 USE_DSA
 
 /* Defined if this module should be included */
-#cmakedefine USE_ECC @USE_ECC@
+#cmakedefine01 USE_ECC
 
 /* Defined if this module should be included */
-#cmakedefine USE_ELGAMAL @USE_ELGAMAL@
+#cmakedefine01 USE_ELGAMAL
 
 /* Defined if the GNU Portable Thread Library should be used */
-#cmakedefine USE_GNU_PTH @USE_GNU_PTH@
+#cmakedefine01 USE_GNU_PTH
 
 /* Defined if this module should be included */
-#cmakedefine USE_GOST28147 @USE_GOST28147@
+#cmakedefine01 USE_GOST28147
 
 /* Defined if this module should be included */
-#cmakedefine USE_GOST_R_3411_12 @USE_GOST_R_3411_12@
+#cmakedefine01 USE_GOST_R_3411_12
 
 /* Defined if this module should be included */
-#cmakedefine USE_GOST_R_3411_94 @USE_GOST_R_3411_94@
+#cmakedefine01 USE_GOST_R_3411_94
 
 /* Defined if this module should be included */
-#cmakedefine USE_IDEA @USE_IDEA@
+#cmakedefine01 USE_IDEA
 
 /* Defined if this module should be included */
-#cmakedefine USE_MD2 @USE_MD2@
+#cmakedefine01 USE_MD2
 
 /* Defined if this module should be included */
-#cmakedefine USE_MD4 @USE_MD4@
+#cmakedefine01 USE_MD4
 
 /* Defined if this module should be included */
-#cmakedefine USE_MD5 @USE_MD5@
+#cmakedefine01 USE_MD5
 
 /* set this to limit filenames to the 8.3 format */
-#cmakedefine USE_ONLY_8DOT3 @USE_ONLY_8DOT3@
+#cmakedefine01 USE_ONLY_8DOT3
 
 /* Define to support the experimental random daemon */
-#cmakedefine USE_RANDOM_DAEMON @USE_RANDOM_DAEMON@
+#cmakedefine01 USE_RANDOM_DAEMON
 
 /* Defined if this module should be included */
-#cmakedefine USE_RFC2268 @USE_RFC2268@
+#cmakedefine01 USE_RFC2268
 
 /* Defined if this module should be included */
-#cmakedefine USE_RMD160 @USE_RMD160@
+#cmakedefine01 USE_RMD160
 
 /* Defined if the EGD based RNG should be used. */
-#cmakedefine USE_RNDEGD @USE_RNDEGD@
+#cmakedefine01 USE_RNDEGD
 
 /* Defined if the /dev/random RNG should be used. */
-#cmakedefine USE_RNDLINUX @USE_RNDLINUX@
+#cmakedefine01 USE_RNDLINUX
 
 /* Defined if the default Unix RNG should be used. */
-#cmakedefine USE_RNDUNIX @USE_RNDUNIX@
+#cmakedefine01 USE_RNDUNIX
 
 /* Defined if the Windows specific RNG should be used. */
-#cmakedefine USE_RNDW32 @USE_RNDW32@
+#cmakedefine01 USE_RNDW32
 
 /* Defined if the WindowsCE specific RNG should be used. */
-#cmakedefine USE_RNDW32CE @USE_RNDW32CE@
+#cmakedefine01 USE_RNDW32CE
 
 /* Defined if this module should be included */
-#cmakedefine USE_RSA @USE_RSA@
+#cmakedefine01 USE_RSA
 
 /* Defined if this module should be included */
-#cmakedefine USE_SALSA20 @USE_SALSA20@
+#cmakedefine01 USE_SALSA20
 
 /* Defined if this module should be included */
-#cmakedefine USE_SCRYPT @USE_SCRYPT@
+#cmakedefine01 USE_SCRYPT
 
 /* Defined if this module should be included */
-#cmakedefine USE_SEED @USE_SEED@
+#cmakedefine01 USE_SEED
 
 /* Defined if this module should be included */
-#cmakedefine USE_SERPENT @USE_SERPENT@
+#cmakedefine01 USE_SERPENT
 
 /* Defined if this module should be included */
-#cmakedefine USE_SHA1 @USE_SHA1@
+#cmakedefine01 USE_SHA1
 
 /* Defined if this module should be included */
-#cmakedefine USE_SHA256 @USE_SHA256@
+#cmakedefine01 USE_SHA256
 
 /* Defined if this module should be included */
-#cmakedefine USE_SHA3 @USE_SHA3@
+#cmakedefine01 USE_SHA3
 
 /* Defined if this module should be included */
-#cmakedefine USE_SHA512 @USE_SHA512@
+#cmakedefine01 USE_SHA512
 
 /* Enable extensions on AIX 3, Interix.  */
 #ifndef _ALL_SOURCE
