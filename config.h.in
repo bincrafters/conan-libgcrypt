@@ -505,7 +505,7 @@
 #cmakedefine01 USE_ONLY_8DOT3
 
 /* Define to support the experimental random daemon */
-#cmakedefine01 USE_RANDOM_DAEMON
+#cmakedefine USE_RANDOM_DAEMON
 
 /* Defined if this module should be included */
 #cmakedefine01 USE_RFC2268
